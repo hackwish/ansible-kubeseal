@@ -9,8 +9,8 @@
 
 - name: Unarchive a file
   shell: tar -xvf /tmp/kubeseal.tar.gz -C /usr/local/bin/ kubeseal
-  args:
-    warn: no
+  # args:
+  #   warn: no
   tags: kubeseal
 
 - name: Verify kubeseal exists
